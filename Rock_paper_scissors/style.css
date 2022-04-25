@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24272e;
+}
+
+header {
+    background: white;
+    padding:20px;
+}
+
+.green-glow{
+    border:4px solid #4dcc7d;
+    box-shadow:0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow{
+    border:4px solid #464647;
+    box-shadow:0 0 10px #25292b;
+}
+
+header > h1 {
+    color:#25272e;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.scoreboard{
+    border:3px solid white;
+    border-radius: 3px solid white;
+    width:200px;
+    margin:20px auto;
+    color:white;
+    font-size:40px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.badge{
+    background:#e2584d;
+    color:white;
+    padding: 2px 10px;
+    font-size:14px;
+    font-family: sans-serif;
+
+}
+
+#user-label{
+    position: absolute;
+    top:30px;
+    left:-25px;
+}
+#comp-label{
+    position: absolute;
+    top:30px;
+    right:-30px;
+}
+
+.result{
+   font-size:40px;
+   color:white;
+}
+
+.result > p {
+    text-align:center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.buttons {
+    margin-top:50px;
+    text-align: center;
+}
+
+.button {
+    border:1px solid white;
+    display:inline-block;
+    border-radius: 5%;
+    margin:0 20px;
+    font-size: 30px;
+    padding:10px;
+    transition: all 0.3s ease;
+}
+
+
+
+.buttons button {
+    background-color:coral;
+}
+
+.button:hover {
+    background: #24272E;
+    cursor: pointer;
+}
+
+.action-message {
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin:60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
